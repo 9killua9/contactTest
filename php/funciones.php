@@ -1,4 +1,8 @@
 <?php
-	$res = "Hola";
-	return $res;
+	if($_POST['h'] == "algo" )
+	{
+		$r['res'] = "Hola";
+		
+		echo json_encode($r);
+	}
 ?>
