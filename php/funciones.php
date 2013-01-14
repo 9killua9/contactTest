@@ -1,5 +1,5 @@
 <?php
-	if($_POST['h'] == "algo" )
+	if($_GET['h'] == "algo" )
 	{
 		$r = "Hola";
 		
